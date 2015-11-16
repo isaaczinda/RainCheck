@@ -2152,7 +2152,7 @@ static int synaptics_ts_probe(
 	TOUCH_INFO_MSG("Client was Setup");
 	
 	//then we immediately return success to prevent any other touch from happening
-	//return 0;
+	return 0;
 
 	TOUCH_DEBUG_TRACE("%s\n", __func__);
 
